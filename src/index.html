@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Sitio de peliculas</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__nav">
+        <figure class="logo">
+          <img
+            src="../img/Negro Azul Rosa Neón Club Logotipo (1).svg"
+            alt="HTML Reference logo"
+          />
+        </figure>
+        <nav class="nav" id="nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link select" href="index.html">Inicio</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="peliculas.html">Peliculas</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="series.html">Series</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="contenedor" id="contenedor"></div>
+
+    <div class="paginacion">
+      <button id="btnAnterior">Anterior</button>
+      <button id="btnSiguiente">Siguiente</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
